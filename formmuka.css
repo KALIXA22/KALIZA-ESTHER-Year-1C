@@ -1,0 +1,103 @@
+
+
+body {
+    
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+form {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    max-width: 1000px;
+}
+
+
+
+fieldset {
+    border: 1px solid #7f93d4;
+    padding: 10px;
+    border-radius: 5px 0px ;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: rgba(31, 17, 17, 0.966);
+    font-size: 18px;
+}
+
+
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2f00ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #6d0404;
+}
+
+.error-message {
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+    .form-container {
+        position: relative; /* Needed to position the watermark */
+        width: 1500px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+  
+      /* Watermark styling */
+      .watermark {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 100px;
+        color: rgba(71, 64, 64, 0.2); /* Light gray and transparent */
+        pointer-events: none; /* Allow interaction with form elements */
+        user-select: none; /* Prevent selection of watermark text */
+        font-style:oblique;
+
+      }
+      
